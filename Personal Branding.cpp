@@ -38,8 +38,11 @@ int main() {
         cout << "--------------------------------------------------\n";
         cout << "TEROBIETIANS, CHOOSE YOUR CHARACTER!\n";
         cout << endl;
-        cout << "Halo, namaku " << nama << " dari prodi " << prodi << ". Aku berasal dari " << asal << " dan aku memiliki impian untuk menjadi " << cita << ".\n";
-        cout << "Kamu bisa kenal aku lebih lanjut di " << akun << " lho! Kutunggu kedatanganmu!\n";
+        cout << "Halo, namaku " << nama << " dari prodi "
+             << prodi << ". Aku berasal dari "
+             << asal << " dan aku memiliki impian untuk menjadi "
+             << cita << ". Kamu bisa kenal aku lebih lanjut di "
+             << akun << " lho! Kutunggu kedatanganmu!\n";
         cout << endl;
         cout << quotes << endl;
         cout << endl;
