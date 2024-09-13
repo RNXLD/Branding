@@ -32,9 +32,12 @@ int main() {
         getline(cin >> ws, akun); // input akun IG
         cout << endl;
 
-        if (prodi == "Teknik Elektro") { TE++; } // naikin counter te jika ngetik prodi te
-        else if (prodi == "Teknologi Informasi") { TI++; } // naikin counter ti jika ngetik prodi ti
-        else if (prodi == "Teknik Biomedis") { TB++; } // naikin counter tb jika ngetik prodi tb
+        if (prodi == "Teknik Elektro")
+        {TE++;} // naikin counter te jika ngetik prodi te
+        else if (prodi == "Teknologi Informasi")
+        {TI++;} // naikin counter ti jika ngetik prodi ti
+        else if (prodi == "Teknik Biomedis")
+        {TB++;} // naikin counter tb jika ngetik prodi tb
 
         cout << "--------------------------------------------------\n";
         cout << "TEROBIETIANS, CHOOSE YOUR CHARACTER!\n";
@@ -61,7 +64,8 @@ int main() {
         cout << "Masukkan data lagi? (Y/N): ";
         cin >> pilihan;
 
-    } while (pilihan == 'Y' || pilihan == 'y'); // jika pilih y, maka bisa input data siswa lain
+    } while (pilihan == 'Y' || pilihan == 'y');
+    // jika pilih y, maka bisa input data siswa lain
     
     cout << "Pastikan jumlah siswa sudah sesuai!\n"; // jika pilih n, program selesai
     return 0;
