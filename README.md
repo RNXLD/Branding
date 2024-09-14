@@ -1,6 +1,6 @@
 -----
 Nama: Arnold Gavrael
-
+-----
 Kelompok: Nyquist
 -----
 Program ini dapat mengkonversi data mentah menjadi caption post IG.
